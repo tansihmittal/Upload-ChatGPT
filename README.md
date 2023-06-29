@@ -1,6 +1,7 @@
 # Upload-ChatGPT
 Upload ChatGPT is Chrome extension where you can upload any type of content into ChatGPT
 
+<img src="icon-128.png" alt="LOGO">
 
 
 Upload ChatGPT is a Chrome extension that allows you to upload any type of content into ChatGPT, a large language model chatbot developed by OpenAI. This includes text, images, and even videos. Once you have uploaded your content, ChatGPT will generate a response based on the content that you have uploaded.
