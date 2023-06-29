@@ -17,3 +17,32 @@ It is powerful. ChatGPT is a powerful language model that can generate creative 
 It is versatile. You can use the extension for a variety of purposes, such as generating creative text, translating languages, or summarizing documents.
 If you are looking for a way to upload any type of content into ChatGPT, then the "Upload ChatGPT" Chrome extension is a great option. It is easy to use, powerful, and versatile.
 
+# How to USE
+To download and use a Chrome extension from a GitHub repository, follow these steps:
+
+Step 1: Open the GitHub repository
+Go to the repository URL provided: https://github.com/tansihmittal/Upload-ChatGPT/tree/main
+
+Step 2: Download the extension files
+On the GitHub repository page, click on the green "Code" button. Then, click on the "Download ZIP" option to download the extension files to your computer.
+
+Step 3: Extract the downloaded ZIP file
+After the ZIP file is downloaded, locate it on your computer and extract its contents to a folder of your choice.
+
+Step 4: Install the extension in Chrome
+Open Google Chrome browser and type chrome://extensions in the address bar, then press Enter. This will open the Chrome Extensions page.
+
+Make sure the "Developer mode" toggle, usually located at the top right corner, is turned on.
+
+Click on the "Load unpacked" button, usually located at the top left corner. A file selection dialog box will appear.
+
+Navigate to the folder where you extracted the extension files, select the folder, and click "Select" or "OK".
+
+The extension will be installed and added to your Chrome browser.
+
+Step 5: Use the extension
+Once the extension is installed, you can start using it. The functionality and usage of the extension will depend on its specific features. Please refer to the documentation or instructions provided by the extension developer for detailed guidance on how to use it effectively.
+
+Remember to be cautious when installing extensions from unknown sources and only download them from trusted repositories.
+
+That's it! You have successfully downloaded and installed the "tansihmittal/Upload-ChatGPT" Chrome extension from the GitHub repository. Enjoy using it in your Chrome browser.
