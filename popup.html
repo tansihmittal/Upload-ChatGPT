@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload ChatGPT</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      width: 500px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .upload-section {
+      text-align: center;
+      margin-bottom: 20px;
+      width: 400px;
+    }
+
+    .file-input {
+      display: none;
+    }
+
+    .upload-btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .upload-btn:hover {
+      background-color: #45a049;
+    }
+
+    #charCount {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .content-space {
+      height: 200px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      overflow: auto;
+      width: 400px;
+    }
+
+    .action-buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .action-buttons button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    .action-buttons button:last-child {
+      margin-right: 0;
+    }
+
+    .action-buttons button:hover {
+      background-color: #45a049;
+    }
+
+    .illustration {
+      width: 300px;
+      position: relative;
+      top: -40px;
+      left: 20px;
+      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bard_logo.svg/2560px-Bard_logo.svg.png");
+    }
+  </style>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <div class="illustration">
+  </div>
+  <h1>ChatGPT Extension</h1>
+  <div class="upload-section">
+    <label for="fileUpload" class="upload-btn">Upload File</label>
+    <input type="file" id="fileUpload" accept=".txt" class="file-input" />
+  </div>
+  <p id="charCount">Number of characters: 0</p>
+  <div class="content-space" id="contentSpace"></div>
+  <div class="action-buttons">
+    <button id="copyContentBtn">Copy Content</button>
+    <button id="bardBtn">Bard</button>
+    <button id="chatgptBtn">ChatGPT</button>
+  </div>
+  <div>
+    <a id="madeByLink" href="" target="_blank" style="position: absolute; bottom: 5px; right: 10px;">Made by Instagram.com/tanishmittal02</a>
+
+  </div>
+  
+</body>
+</html>
